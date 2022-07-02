@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>final document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="bg7.jpg">
+	<script type="text/javascript" >
+ const win=new Array("1","2","3","4","5","6","7","8");
+ var name=prompt("Your Name");
+ var firstletter=name.slice(0,1);
+ var remaining=name.slice(1,name.length);
+ firstletter=firstletter.toUpperCase();
+ remaining=remaining.toLowerCase();
+ var final=firstletter.concat(remaining);
+ alert("WELCOME "+ final);
+function myfunction() {
+
+    const wheel = document.querySelector('.container');
+    const startButton = document.querySelector('.button');
+    deg = Math.floor(5000 + Math.random() * 5000);
+    var answer=deg;
+    wheel.style.transition = 'all 10s ease-out';
+    wheel.style.transform = `rotate(${deg}deg)`;
+    var element = document.getElementById('container');
+   
+    setTimeout(result,15000);
+    }
+    setTimeout(stop,5000);
+
+     function stop()
+{    
+    alert("★彡[ꜱᴘɪɴ ᴛʜᴇ ᴡʜᴇᴇʟ ꜰᴏʀ ᴀᴍᴀᴢɪɴɢ ꜱᴜᴘʀɪꜱᴇ]彡★");
+}
+
+function result() {
+     alert("Wait for result");
+       var final=Math.floor(1 + Math.random()*7);
+        if(win[0]==final)
+        {
+            alert("You Won 50% off on tour");
+        }
+        else if(win[1]==final)
+        {
+            alert("You Won Free Hotel Booking");
+        } 
+        else if(win[2]==final)
+        {
+            alert("You Won Free Trip");
+        }
+        else if(win[3]==final)
+        {
+            alert("You Won Free Shoes");
+        } 
+        else if(win[4]==final)
+        {
+         alert("You Won Buy one ticket get free one");
+        } 
+         else if(win[5]==final)
+        {
+         alert("You won 20% off on ticket");
+        }
+         else if(win[6]==final)
+        {
+         alert("You Won Free Treaking Bag");
+        } 
+         else if(win[7]==final)
+        {
+         alert("You Won Free Lunch On Trip");
+        }  
+
+        else{ alert("you won nothing!!Better luck next time"); }     }
+        </script>
+
+    <h3 class="line1">𝓦𝓲𝓷 𝓔𝔁𝓬𝓲𝓽𝓲𝓷𝓰 𝓞𝓯𝓯𝓮𝓻!!</h3>
+    <h2 class="description1">VC ADVENTURES</h2>
+    <i><h4 class="description" align="center">Discover our selection of more than 200 trekking tours and other adventure sports activities in Indian Himalayas region like Ladakh, Sikkim, Garhwal, Himachal and Kumaon. Book your adventure trekking holidays at best prices and services.Spin the Wheel get amazing offer.</h4></i>
+<div class="center_div">
+		<h1>ᔕᑭᎥᑎTHEᗯᕼᗴᗴᒪ</h1>
+</div>
+
+	 <button onclick="myfunction()" class="button" id="spin"> Spin</button> 
+    <span  class="arrow"></span>
+<div class="container" id="container">
+    <div class="one" >1</div>
+    <div class="two" >2</div>
+    <div class="three">3</div>
+    <div class="four" >4</div>
+    <div class="five" >5</div>
+    <div class="six" >6</div>
+    <div class="seven">7</div>
+    <div class="eight">8</div> 
+</div>
+
+
+</body>
+</html> 
